@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#hero">Aditya<span>.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="btn btn-primary-nav">Let's Talk</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="section">
+        <div class="hero-container container">
+            <div class="hero-content fade-in">
+                <div class="badge">Available for new opportunities</div>
+                <h1 class="name">Crafting digital <br>experiences with <br><span
+                        class="gradient-text typing-wrapper"><span class="typing-text"></span><span
+                            class="cursor">|</span></span></h1>
+                <p class="summary">
+                    I'm Aditya, a frontend developer focused on building clean, accessible, and high-performance user
+                    interfaces. Turning complex problems into elegant digital solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="https://github.com/adityakumarsharma7398-cyber" target="_blank"
+                        class="btn btn-secondary"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/aditya-kumar-sharma-85a0782bb/" target="_blank"
+                        class="btn btn-secondary"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="about" class="section bg-white">
+        <div class="container fade-in">
+            <div class="section-header">
+                <h2>About my journey</h2>
+                <p class="section-subtitle">A brief look into who I am and what drives me.</p>
+            </div>
+            <div class="about-content grid-2-col">
+                <div class="about-text card p-lg">
+                    <h3>Constantly learning, continuously building.</h3>
+                    <p>
+                        I’m a first-year engineering student who is actively building a strong foundation in development
+                        and problem solving.
+                    </p>
+                    <p>
+                        I enjoy learning by building real projects and exploring how technology can solve real-world
+                        problems. Currently, I’m focusing on improving my skills in C++, web development, and
+                        understanding how modern applications work.
+                    </p>
+                    <p>
+                        I believe in consistency over motivation, and I’m working every day to become a better developer
+                        than I was yesterday.
+                    </p>
+                    <p>
+                        This portfolio is a reflection of my journey not perfection, but progress.
+                    </p>
+                </div>
+                <div class="about-focus card p-lg"
+                    style="display: flex; flex-direction: column; justify-content: center;">
+                    <h3 style="font-size: 1.5rem; margin-bottom: 2rem;">What I’m currently doing</h3>
+                    <ul style="display: flex; flex-direction: column; gap: 1.5rem;">
+                        <li style="display: flex; gap: 1.2rem; align-items: center;">
+                            <div class="skill-icon-wrapper tools-color"
+                                style="width: 45px; height: 45px; font-size: 1.2rem;">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <span style="font-weight: 500; color: var(--text-secondary); line-height: 1.4;">Building
+                                real-world projects to strengthen my fundamentals</span>
+                        </li>
+                        <li style="display: flex; gap: 1.2rem; align-items: center;">
+                            <div class="skill-icon-wrapper js-color"
+                                style="width: 45px; height: 45px; font-size: 1.2rem;">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <span style="font-weight: 500; color: var(--text-secondary); line-height: 1.4;">Learning
+                                Data Structures & Problem Solving using C++</span>
+                        </li>
+                        <li style="display: flex; gap: 1.2rem; align-items: center;">
+                            <div class="skill-icon-wrapper react-color"
+                                style="width: 45px; height: 45px; font-size: 1.2rem;">
+                                <i class="fa-brands fa-html5"></i>
+                            </div>
+                            <span style="font-weight: 500; color: var(--text-secondary); line-height: 1.4;">Exploring
+                                web development (HTML, CSS, JavaScript)</span>
+                        </li>
+                        <li style="display: flex; gap: 1.2rem; align-items: center;">
+                            <div class="skill-icon-wrapper design-color"
+                                style="width: 45px; height: 45px; font-size: 1.2rem;">
+                                <i class="fa-solid fa-bullseye"></i>
+                            </div>
+                            <span style="font-weight: 500; color: var(--text-secondary); line-height: 1.4;">Working on
+                                improving consistency and discipline</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container fade-in">
+            <div class="section-header">
+                <h2>Technical Toolkit</h2>
+                <p class="section-subtitle">The tools and technologies I use to bring ideas to life.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card card">
+                    <div class="skill-icon-wrapper html-color">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>HTML5 & CSS3</h3>
+                        <p>Semantic markup, modern styling, Flexbox, Grid, and responsive design principles.</p>
+                    </div>
+                </div>
+                <div class="skill-card card">
+                    <div class="skill-icon-wrapper js-color">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>JavaScript (ES6+)</h3>
+                        <p>Asynchronous programming, DOM manipulation, and modern JS features.</p>
+                    </div>
+                </div>
+                <div class="skill-card card">
+                    <div class="skill-icon-wrapper tools-color">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="skill-info">
+                        <h3>Git & GitHub</h3>
+                        <p>Version control, source code management, branching strategies, and collaborative development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-white">
+        <div class="container fade-in">
+            <div class="section-header">
+                <h2>Featured Work</h2>
+                <p class="section-subtitle">A collection of my recent and most impactful projects.</p>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card card">
+                    <div class="project-img-wrapper">
+                        <img src="assets/amazon.png" alt="E-Commerce App">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-flex">
+                            <h3>Amazon clone</h3>
+                            <a href="#" class="btn-icon-minimal" target="_blank" title="View Code"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                        <p>A front-end clone of the Amazon homepage built using HTML and CSS. This project replicates
+                            the layout and design of Amazon's landing page, focusing on responsive structure, navigation
+                            bar design, product sections, and footer layout.</p>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span class="tag">HTML/CSS</span>
+
+                            </div>
+                            <a href="https://github.com/adityakumarsharma7398-cyber/project-1-Amazon-clone-" class="btn btn-outline-sm" target="_blank">View Project <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <div class="project-img-wrapper">
+                        <img src="assets/planner.png" alt="Task Application">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-flex">
+                            <h3>Smart Study Planner</h3>
+                            <a href="https://github.com/adityakumarsharma7398-cyber/Smart-Study-Planner" class="btn-icon-minimal" target="_blank" title="View Code"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                        <p>A simple and interactive study timetable planner that helps students organize their study
+                            schedule efficiently.</p>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <a href="https://github.com/adityakumarsharma7398-cyber/Smart-Study-Planner" class="btn btn-outline-sm" target="_blank">View Project <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card">
+                    <div class="project-img-wrapper">
+                        <img src="assets/food.png" alt="Weather Mobile App">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-flex">
+                            <h3>Responsive Food Website</h3>
+                            <a href="https://github.com/adityakumarsharma7398-cyber/responsive-food-website" class="btn-icon-minimal" target="_blank" title="View Code"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                        <p>A modern and fully responsive food website built using HTML, CSS, and JavaScript.</p>
+                        <div class="project-footer">
+                            <div class="project-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <a href="https://github.com/adityakumarsharma7398-cyber/responsive-food-website" class="btn btn-outline-sm" target="_blank">View Project <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container fade-in">
+            <div class="section-header">
+                <h2>Let's build together</h2>
+                <p class="section-subtitle">Have a project in mind or just want to chat? Drop me a message.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-text">
+                    <h3>Get in touch</h3>
+                    <p class="contact-desc">I'm currently available for freelance projects or full-time opportunities.
+                        My inbox is always open, and I will get back to you as soon as possible.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Email</h4>
+                                <a href="mailto:adityasharma1232as@gmail.com">adityasharma1232as@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Location</h4>
+                                <p>India (Remote friendly)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-large">
+                        <a href="#" class="social-card card"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="social-card card"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="social-card card"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container card">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" required placeholder="Aditya">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required placeholder="aditya@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required placeholder="Project Inquiry">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required
+                                placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                                class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-top">
+                <div class="footer-logo">Aditya<span>.</span></div>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aditya Kumar. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
